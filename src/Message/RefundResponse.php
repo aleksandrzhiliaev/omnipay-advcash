@@ -31,7 +31,7 @@ class RefundResponse extends AbstractResponse
 
     private function parseResponse()
     {
-        if ($this->data->response) {
+        if ($this->data->return) {
             $this->success = true;
         }
     }
