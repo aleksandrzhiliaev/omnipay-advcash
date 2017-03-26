@@ -54,6 +54,15 @@ class RefundRequest extends AbstractRequest
         return $this->setParameter('payeeAccount', $value);
     }
 
+    public function setCurrency($value)
+    {
+        if ($value !== null) {
+            $value = strtoupper($value);
+        }
+        $value = str_replace('RUB','RUR',$value);
+        return $this->setParameter('currency', $value);
+    }
+
     public function getData()
     {
         $this->validate('payeeAccount', 'amount', 'description');
