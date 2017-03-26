@@ -70,7 +70,7 @@ class RefundRequest extends AbstractRequest
         $data['apiName'] = $this->getApiName();
         $data['accountEmail'] = $this->getAccount();
         $data['apiSecret'] = $this->getApiSecret();
-        $data['amount'] = floatval($this->getAmount());
+        $data['amount'] = number_format((float)$this->getAmount(), 2, '.', '');
         $data['currency'] = $this->getCurrency();
         $data['payeeEmail'] = $this->getPayeeAccount();
         $data['note'] = $this->getDescription();
