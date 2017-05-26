@@ -59,7 +59,7 @@ class RefundRequest extends AbstractRequest
         if ($value !== null) {
             $value = strtoupper($value);
         }
-        $value = str_replace('RUB','RUR',$value);
+        $value = str_replace('RUB', 'RUR', $value);
         return $this->setParameter('currency', $value);
     }
 
@@ -105,9 +105,8 @@ class RefundRequest extends AbstractRequest
         try {
             $merchantWebService->validationSendMoney($validationSendMoney);
             $sendMoneyResponse = $merchantWebService->sendMoney($sendMoney);
-            #var_dump($sendMoneyResponse);
         } catch (\Exception $e) {
-            throw new InvalidRequestException('Error: '.$e->getMessage());
+            throw new InvalidRequestException('Error: ' . $e->getMessage());
         }
 
         return $this->response = new RefundResponse($this, $sendMoneyResponse);
