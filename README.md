@@ -1,5 +1,8 @@
 # omnipay-advcash
 [![Build Status](https://travis-ci.org/aleksandrzhiliaev/omnipay-advcash.svg?branch=master)](https://travis-ci.org/aleksandrzhiliaev/omnipay-advcash)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/95c32cb06d414446a6a3e960f48152e5)](https://www.codacy.com/app/sassoftinc/omnipay-advcash?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aleksandrzhiliaev/omnipay-advcash&amp;utm_campaign=Badge_Grade)
+[![Latest Stable Version](https://poser.pugx.org/aleksandrzhiliaev/omnipay-advcash/v/stable)](https://packagist.org/packages/aleksandrzhiliaev/omnipay-advcash)
+[![Total Downloads](https://poser.pugx.org/aleksandrzhiliaev/omnipay-advcash/downloads)](https://packagist.org/packages/aleksandrzhiliaev/omnipay-advcash)
 
 Advcash gateway for [Omnipay](https://github.com/thephpleague/omnipay) payment processing library.
 
