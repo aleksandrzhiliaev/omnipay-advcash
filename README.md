@@ -34,7 +34,7 @@ The following gateways are provided by this package:
 * Advcash
 
 For general usage instructions, please see the main [Omnipay](https://github.com/omnipay/omnipay)
-repository. See also the [Nixmoney Documentation](http://info.nixmoney.com/en/integration)
+repository. See also the [Advcash Documentation](https://advcash.com/en/solutions/developers/)
 
 ## Example
 1. Purchase:
